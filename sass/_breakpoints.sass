@@ -1,0 +1,11 @@
+// usage
+// +break(700px)        max-width 
+// +break(700px, 400px) max-width / min-width    
+
+=break($arg...)
+  @if length($arg) == 1
+    @media screen and (max-width: nth($arg, 1))
+      @content
+  @if length($arg) == 2
+    @media screen and (max-width: nth($arg, 1)) and (min-width: nth($arg, 2))
+      @content
