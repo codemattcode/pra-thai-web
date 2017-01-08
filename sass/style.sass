@@ -9,7 +9,7 @@
 $reset-font:          $neue, sans-serif
 $reset-font-size:     62.5%
 $reset-line-height:   1.625
-$reset-margin:        0 // 2.4rem golden ratio for descendants 
+$reset-margin:        0 // 2.4rem golden ratio for descendants
 $reset-padding:       0 // 4.8rem golden ratio for descendants
 $reset-body-bg:       lighten(#eee, 5%)
 html
@@ -28,6 +28,228 @@ body
   line-height: .8
   margin: $reset-margin
   padding: $reset-padding
-  background-color: $reset-body-bg  
+  background-color: $reset-body-bg
 // LET THERE BE LIGHT
 
+body, html
+  height: 100%
+  margin: 0
+  font: 400 15px/1.8 "Lato", sans-serif
+  color: #fff
+
+
+
+
+
+
+
+
+
+//
+/* The navigation bar */
+nav
+  height: 50px
+  ul
+    z-index: 100
+    list-style-type: none
+    margin: 0
+    padding: 0
+    overflow: hidden
+    background-color: $navBg
+    position: fixed
+    // Set the navbar to fixed position
+    top: 0
+    // Position the navbar at the top of the page
+    width: 100%
+    // Full width
+    display: flex
+    justify-content: center
+  li a
+    display: block
+    color: black
+    padding: 12px
+    text-decoration: none
+    font-size: 18px
+    text-transform: uppercase
+//
+/* /The navigation bar */
+
+
+
+
+
+
+
+
+
+
+
+
+//
+/* body */
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4,
+  position: relative
+  opacity: 0.65
+  background-attachment: scroll
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+.bgimg-1
+  background-attachment: fixed
+.bgimg-1
+  background-image: url("../img/food/food-5.jpg")
+  min-height: 100%
+
+.bgimg-2
+  background-image: url("../img/food/food-4.jpg")
+  min-height: 400px
+
+.bgimg-3
+  background-image: url("../img/food/food-3.jpg")
+  min-height: 550px
+
+.bgimg-4
+  background-image: url("../img/food/food-1.jpg")
+  min-height: 550px
+
+
+.caption
+  position: absolute
+  left: 0
+  top: 50%
+  width: 100%
+  text-align: center
+  color: #000
+  span.border
+    background-color: #111
+    color: #fff
+    padding: 18px
+    font-size: 25px
+    letter-spacing: 10px
+
+/* Turn off parallax scrolling for tablets and phones
+@media only screen and (max-device-width: 1024px)
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4
+    background-attachment: scroll
+
+
+
+
+
+
+
+
+// menu
+.menu-body
+  position: relative
+  opacity: 1
+  background-attachment: scroll
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  min-height: 100%
+.menu
+  position: relative
+  margin: 0 auto
+  top: 50px
+  max-width: 1140px
+  width: 90%
+  color: #000
+table
+  width: 90%
+  margin: 0 auto
+  tr, td
+    padding: 0
+    margin: 0
+  td
+    padding: 5px
+.highlight
+  background: $highlight
+
+
+
+
+
+// location
+.location-body
+  position: relative
+  opacity: 1
+  background-attachment: scroll
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  min-height: 100%
+.location
+  position: relative
+  margin: 0 auto
+  top: 50px
+  max-width: 1140px
+  width: 90%
+  color: #000
+.group
+  display: flex
+  flex-direction: column
+  align-items: center
+.gallery
+  width: 90%
+  margin: 0 auto
+.map
+  margin-bottom: 50px
+  padding: 20px 0
+
+
+
+
+
+// contact
+.contact-body
+  position: relative
+  opacity: 1
+  background-attachment: scroll
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  min-height: 100%
+.contact
+  position: relative
+  margin: 0 auto
+  top: 50px
+  max-width: 1140px
+  width: 90%
+  color: #000
+.contact-section
+  width: 90%
+  margin: 0 auto
+
+
+
+
+
+// footer
+footer
+  background-color: $footerBg
+  width: 100%
+  padding: 20px
+  ul, .times
+    list-style-type: none
+    margin: 0
+    padding: 0
+    overflow: hidden
+    position: scroll
+    display: flex
+    justify-content: center
+    align-items: center
+  li a
+    display: block
+    color: white
+    padding: 16px
+    text-decoration: none
+    font-size: 20px
+// /footer
+
+
+// Designed and Built by CodeMattCode
+.credit
+  color: $notBlack
+  text-align: center
+  padding: 10px 0
