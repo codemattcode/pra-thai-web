@@ -49,6 +49,49 @@ if (empty($_POST) === false) {
 <!--[if lt IE 9]>
   <script src="js/polyfill/html5-shiv.js"></script>
 <![endif]-->
+<style>
+.wrapper {
+  color: black;
+  font-size: 1.3em;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+}
+.contact-body {
+  position: relative;
+  opacity: 1;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+}
+.contact {
+  position: relative;
+  /*margin: 0 auto;*/
+  /*top: 50px;*/
+  max-width: 1140px;
+  /*width: 90%;*/
+  color: #000;
+}
+.contact-section {
+  /*width: 90%;
+  margin: 0 auto;*/
+}
+#address {
+  margin-top: 40px;
+}
+.contact-form {
+  margin: 40px 0;
+}
+input, textarea {
+  border: 1px solid #282E34;
+}
+</style>
   </head>
   <body>
 <!--[if IE]>
@@ -68,7 +111,7 @@ if (empty($_POST) === false) {
   <li><a href="index.html">Home</a></li>
   <li><a href="menu.html">Menu</a></li>
   <li><a href="location.html">Location</a></li>
-  <li><a href="http://prathai.co.uk/contact.php">Contact</a></li>
+  <li><a href="contact.php">Contact</a></li>
 </ul>
 
 
@@ -76,7 +119,7 @@ if (empty($_POST) === false) {
 <!-- /nav -->
 
 
-
+<div class="wrapper">
 
 
 
@@ -85,9 +128,10 @@ if (empty($_POST) === false) {
   <div class="contact">
 
     <div class="contact-section">
-      <p>Tel:02089200735</p>
+      <p>Tel:<a href="tel:02089200735">02089200735</a></p>
       <p><a href="mailto:reservations@prathai.co.uk">reservations@prathai.co.uk</a></p>
-      <p>Agua Clara House</p>
+
+      <p id="address">Agua Clara House</p>
       <p>107 Friern Barnet Rd</p>
       <p>London N11 3EU</p>
 
@@ -96,6 +140,8 @@ if (empty($_POST) === false) {
       <!-- <p>reservation info</p> -->
 
 
+
+<div class="contact-form">
 
 
 
@@ -143,6 +189,8 @@ if (empty($_POST) === false) {
        ?>
 
       <!-- /form -->
+    </div> <!-- /contact-form -->
+
     </div>
 
   </div>
@@ -151,7 +199,7 @@ if (empty($_POST) === false) {
 
 
 
-
+</div> <!-- /wrapper -->
 
 
 

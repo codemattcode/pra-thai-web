@@ -416,14 +416,20 @@ nav {
   font-size: 2.4em; }
   @media screen and (max-width: 768px) {
     .hero-txt {
-      font-size: 1.83em; } }
+      font-size: 1.33em; } }
 
 .customer {
   font-size: 1.9em;
   font-weight: bold; }
+  @media screen and (max-width: 768px) {
+    .customer {
+      font-size: 1.33em; } }
 
 .quote {
   font-size: 1.8em; }
+  @media screen and (max-width: 768px) {
+    .quote {
+      font-size: 1.33em; } }
 
 .menu-body {
   position: relative;
@@ -457,11 +463,20 @@ table {
 .menu-title {
   font-size: 1.8em;
   text-align: center; }
+  @media screen and (max-width: 768px) {
+    .menu-title {
+      font-size: 1.33em; } }
 
 .menu-title-dotted {
   border-top: 1px dashed black;
   font-size: 1.8em;
   text-align: center; }
+  @media screen and (max-width: 768px) {
+    .menu-title-dotted {
+      font-size: 1.33em; } }
+
+#pad-top {
+  padding-top: 20px; }
 
 .center {
   text-align: center; }
@@ -501,6 +516,21 @@ span.center-price {
   display: flex;
   flex-direction: column;
   align-items: center; }
+
+.location-text {
+  font-size: 1.32em;
+  margin-bottom: 40px; }
+
+#left, #right {
+  float: left; }
+  @media screen and (max-width: 768px) {
+    #left, #right {
+      float: none;
+      margin-right: 0;
+      margin-bottom: 20px; } }
+
+#left {
+  margin-right: 40px; }
 
 .gallery {
   width: 90%;
