@@ -437,6 +437,10 @@ nav {
     .quote {
       font-size: 1.33em; } }
 
+.hero-txt, .customer, .quote {
+  max-width: 1140px;
+  margin: 0 auto; }
+
 .menu-body {
   position: relative;
   opacity: 1;
