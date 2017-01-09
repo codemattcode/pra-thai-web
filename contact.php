@@ -22,7 +22,7 @@ if (empty($_POST) === false) {
 
   if (empty($errors) === true) {
     mail('reservations@prathai.co.uk', 'Message via website form', $message, 'From: ' . $email);
-    header('Location: index.php?sent');
+    header('Location: index.html?sent');
     exit();
   }
 
@@ -210,7 +210,7 @@ input, textarea {
 <footer>
 
   <ul>
-    <li><a href="https://facebok.com/prathaildn"><i class="fa fa-facebook fa-2x"></i></a></li>
+    <li><a href="https://facebook.com/prathaildn"><i class="fa fa-facebook fa-2x"></i></a></li>
     <li><a href="https://twitter.com/prathaildn"><i class="fa fa-twitter fa-2x"></i></a></li>
     <li><a href="https://instagram.com/prathaildn"><i class="fa fa-instagram fa-2x"></i></a></li>
     <li><a href="mailto:reservations@prathai.co.uk"><i class="fa fa-envelope fa-2x"></i></a></li>
