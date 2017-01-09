@@ -445,6 +445,10 @@ table {
   font-size: 1.8em;
   text-align: center; }
 
+span.center-price {
+  display: block;
+  text-align: center; }
+
 .highlight {
   background: #f5f5f5; }
 
