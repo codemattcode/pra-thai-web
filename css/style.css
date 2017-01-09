@@ -451,12 +451,11 @@ nav {
   margin: 0 auto;
   top: 50px;
   max-width: 1140px;
-  width: 95%;
   color: #000;
   margin-bottom: 80px; }
 
 table {
-  width: 90%;
+  max-width: 1140px;
   margin: 0 auto; }
   table tr, table td {
     padding: 0;
