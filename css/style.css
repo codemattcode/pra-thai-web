@@ -440,6 +440,10 @@ table {
     padding: 5px;
     font-size: 1.2em; }
 
+.menu-title {
+  font-size: 1.8em;
+  text-align: center; }
+
 .highlight {
   background: #f5f5f5; }
 
