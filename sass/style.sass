@@ -43,8 +43,6 @@ body, html
 
 
 
-
-
 //
 /* The navigation bar */
 nav
@@ -70,8 +68,8 @@ nav
     padding: 12px
     text-decoration: none
     font-size: 1.2em
-    // +break(768px)
-    //   font-size:
+    +break(500px)
+      font-size: 1em
     text-transform: uppercase
 //
 /* /The navigation bar */
@@ -122,20 +120,23 @@ nav
   width: 100%
   text-align: center
   color: #000
+  +break(768px)
+    margin-top: -10%
   span.border
     background-color: #111
     color: #fff
     padding: 18px
     font-size: 25px
     letter-spacing: 10px
-
 /* Turn off parallax scrolling for tablets and phones
 @media only screen and (max-device-width: 1024px)
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4
     background-attachment: scroll
 
-
-
+  // img
+  //   margin-top: -50%
+  //   width: 280px
+  //   height: auto
 .hero-txt
   font-size: 2.4em
   +break(768px)
@@ -182,13 +183,15 @@ table
   font-size: 1.8em
   text-align: center
   +break(768px)
-    font-size: 1.33em
+    font-size: 1.43em
+  padding: 20px 0
+  border-bottom: 1px dashed $notBlack
 .menu-title-dotted
-  border-top: 1px dashed black
+  border-top: 1px dashed $notBlack
   font-size: 1.8em
   text-align: center
   +break(768px)
-    font-size: 1.33em
+    font-size: 1.43em
 #pad-top
   padding-top: 20px
 .center
@@ -211,11 +214,10 @@ span.center-price
 
 
 
-
-
 // location
 .location-bg
-  background: $navBg
+  // background: $navBg
+  background: white
 .location-body
   position: relative
   opacity: 1
@@ -231,6 +233,11 @@ span.center-price
   max-width: 1140px
   width: 90%
   color: #000
+#logo
+  width: 250px
+  height: auto
+  margin-bottom: 40px
+  // border: 2px solid darken($navBg, 1.5)
 .group
   display: flex
   flex-direction: column
@@ -249,6 +256,8 @@ span.center-price
 .gallery
   width: 90%
   margin: 0 auto
+  img
+    border: 5px solid $navBg
 .map
   margin-bottom: 50px
   padding: 20px 0
