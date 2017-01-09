@@ -21,7 +21,7 @@ if (empty($_POST) === false) {
   }
 
   if (empty($errors) === true) {
-    mail('mattp@yo50.com', 'Message via website form', $message, 'From: ' . $email);
+    mail('reservations@prathai.co.uk', 'Message via website form', $message, 'From: ' . $email);
     header('Location: index.php?sent');
     exit();
   }
@@ -40,7 +40,7 @@ if (empty($_POST) === false) {
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>Pra Thai Restaurant N11 London</title>
     <meta name="description" content="">
     <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
@@ -131,7 +131,8 @@ input, textarea {
       <p>Tel:<a href="tel:02089200735">02089200735</a></p>
       <p><a href="mailto:reservations@prathai.co.uk">reservations@prathai.co.uk</a></p>
 
-      <p id="address">Agua Clara House</p>
+      <p id="address">Pra Thai</p>
+      <p>Agua Clara House</p>
       <p>107 Friern Barnet Rd</p>
       <p>London N11 3EU</p>
 
@@ -209,9 +210,9 @@ input, textarea {
 <footer>
 
   <ul>
-    <li><a href="https://facebok.com/"><i class="fa fa-facebook fa-2x"></i></a></li>
-    <li><a href="https://twitter.com/"><i class="fa fa-twitter fa-2x"></i></a></li>
-    <li><a href="https://instagram.com/"><i class="fa fa-instagram fa-2x"></i></a></li>
+    <li><a href="https://facebok.com/prathaildn"><i class="fa fa-facebook fa-2x"></i></a></li>
+    <li><a href="https://twitter.com/prathaildn"><i class="fa fa-twitter fa-2x"></i></a></li>
+    <li><a href="https://instagram.com/prathaildn"><i class="fa fa-instagram fa-2x"></i></a></li>
     <li><a href="mailto:reservations@prathai.co.uk"><i class="fa fa-envelope fa-2x"></i></a></li>
   </ul>
 
