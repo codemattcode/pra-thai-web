@@ -482,7 +482,7 @@ table {
     .menu-title-dotted {
       font-size: 1.43em; } }
 
-#pad-top {
+.pad-top {
   padding-top: 20px; }
 
 .center {
@@ -516,7 +516,7 @@ span.center-price {
   margin: 0 auto;
   top: 50px;
   max-width: 1140px;
-  width: 90%;
+  max-width: 1140px;
   color: #000; }
 
 #logo {
@@ -532,6 +532,9 @@ span.center-price {
 .location-text {
   font-size: 1.32em;
   margin-bottom: 40px; }
+  @media screen and (max-width: 768px) {
+    .location-text {
+      margin-bottom: 20px; } }
 
 #left, #right {
   float: left; }
@@ -545,7 +548,7 @@ span.center-price {
   margin-right: 40px; }
 
 .gallery {
-  width: 90%;
+  max-width: 1140px;
   margin: 0 auto; }
   .gallery img {
     border: 5px solid #faf9ec; }

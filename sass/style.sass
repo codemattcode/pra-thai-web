@@ -193,7 +193,7 @@ table
   text-align: center
   +break(768px)
     font-size: 1.43em
-#pad-top
+.pad-top
   padding-top: 20px
 .center
   text-align: center
@@ -232,7 +232,8 @@ span.center-price
   margin: 0 auto
   top: 50px
   max-width: 1140px
-  width: 90%
+  // width: 90%
+  max-width: 1140px
   color: #000
 #logo
   width: 250px
@@ -246,6 +247,8 @@ span.center-price
 .location-text
   font-size: 1.32em
   margin-bottom: 40px
+  +break(768px)
+    margin-bottom: 20px
 #left, #right
   float: left
   +break(768px)
@@ -255,7 +258,8 @@ span.center-price
 #left
   margin-right: 40px
 .gallery
-  width: 90%
+  // width: 90%
+  max-width: 1140px
   margin: 0 auto
   img
     border: 5px solid $navBg
