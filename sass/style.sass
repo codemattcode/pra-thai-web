@@ -104,7 +104,7 @@ nav
 
 .bgimg-2
   background-image: url("../img/food/food-4.jpg")
-  min-height: 400px
+  min-height: 430px
 
 .bgimg-3
   background-image: url("../img/food/food-3.jpg")
@@ -140,7 +140,11 @@ nav
   font-size: 2.4em
   +break(768px)
     font-size: 1.83em
-
+.customer
+  font-size: 1.9em
+  font-weight: bold
+.quote
+  font-size: 1.8em
 
 
 // menu
@@ -192,7 +196,16 @@ span.center-price
 
 
 
+
+
+
+
+
+
+
 // location
+.location-bg
+  background: $navBg
 .location-body
   position: relative
   opacity: 1
@@ -218,31 +231,27 @@ span.center-price
 .map
   margin-bottom: 50px
   padding: 20px 0
+  height: 600px
+  width: 800px
+  +break(768px)
+    height: auto
+    width: 100%
+  iframe
+    width: 100%
+    height: 100%
+
+
+
+
+
+
 
 
 
 
 
 // contact
-.contact-body
-  position: relative
-  opacity: 1
-  background-attachment: scroll
-  background-position: center
-  background-repeat: no-repeat
-  background-size: cover
-  min-height: 100%
-.contact
-  position: relative
-  margin: 0 auto
-  top: 50px
-  max-width: 1140px
-  width: 90%
-  color: #000
-.contact-section
-  width: 90%
-  margin: 0 auto
-
+// inline styles on page
 
 
 

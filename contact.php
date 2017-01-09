@@ -68,8 +68,7 @@ if (empty($_POST) === false) {
   <li><a href="index.html">Home</a></li>
   <li><a href="menu.html">Menu</a></li>
   <li><a href="location.html">Location</a></li>
-  <li><a href="contact.php">Contact</a></li>
-  <li><a href="#">JUST EAT</a></li>
+  <li><a href="http://prathai.co.uk/contact.php">Contact</a></li>
 </ul>
 
 
@@ -94,7 +93,8 @@ if (empty($_POST) === false) {
 
 
 
-      <p>reservation info</p>
+      <!-- <p>reservation info</p> -->
+
 
 
 
@@ -161,8 +161,10 @@ if (empty($_POST) === false) {
 <footer>
 
   <ul>
-    <li><a href="#facebook"><i class="fa fa-facebook fa-3x"></i></a></li>
-    <li><a href="#email"><i class="fa fa-envelope fa-3x"></i></a></li>
+    <li><a href="https://facebok.com/"><i class="fa fa-facebook fa-2x"></i></a></li>
+    <li><a href="https://twitter.com/"><i class="fa fa-twitter fa-2x"></i></a></li>
+    <li><a href="https://instagram.com/"><i class="fa fa-instagram fa-2x"></i></a></li>
+    <li><a href="mailto:reservations@prathai.co.uk"><i class="fa fa-envelope fa-2x"></i></a></li>
   </ul>
 
   <p class="times">OPENING HOURS</p>
